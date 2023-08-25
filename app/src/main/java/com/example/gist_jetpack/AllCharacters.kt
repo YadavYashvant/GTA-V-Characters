@@ -47,10 +47,10 @@ fun AllCharacters(charList: List<CharacterData>) {
                 ){
                     Card (
                         modifier = Modifier
-                            .padding(horizontal = 12.dp, vertical = 25.dp)
+                            .padding(horizontal = 10.dp)
                             .fillMaxWidth()
                             .wrapContentHeight(),
-                        shape = MaterialTheme.shapes.large,
+                        shape = MaterialTheme.shapes.extraLarge,
                         elevation = CardDefaults.cardElevation(
                             defaultElevation = 30.dp
                         ),
@@ -58,12 +58,14 @@ fun AllCharacters(charList: List<CharacterData>) {
                         Image(painter = painterResource(id = R.drawable.gtav), contentDescription = null,
                             modifier = Modifier
                                 .size(130.dp)
-                                .padding(5.dp),
+                                .padding(5.dp)
+                                .align(Alignment.CenterHorizontally),
                             contentScale = ContentScale.Fit
                         )
                         Text(text = "GTA V Characters",
                             style = MaterialTheme.typography.headlineLarge,
-                            fontWeight = FontWeight.Bold
+                            fontWeight = FontWeight.Bold,
+                            modifier = Modifier.padding(horizontal = 10.dp).align(Alignment.CenterHorizontally)
                         )
                     }
                 }

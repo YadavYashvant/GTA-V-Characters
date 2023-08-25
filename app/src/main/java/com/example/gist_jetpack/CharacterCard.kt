@@ -54,7 +54,7 @@ fun CharacterCard(name: String, description: String, image: Int) {
                     style = MaterialTheme.typography.headlineMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     fontWeight = FontWeight.Bold,
-                    modifier = Modifier.padding(8.dp).wrapContentWidth(Alignment.CenterHorizontally)
+                    modifier = Modifier.align(Alignment.CenterHorizontally)
                 )
                 Text(
                     text = description,
