@@ -19,7 +19,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun CharacterCard(name: String, description: Int, image: Int) {
+fun CharacterCard(name: String, description: String, image: Int) {
     Card(
         modifier = Modifier
             .padding(10.dp)
