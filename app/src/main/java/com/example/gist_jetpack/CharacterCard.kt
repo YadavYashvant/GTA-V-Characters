@@ -1,6 +1,7 @@
 package com.example.gist_jetpack
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -16,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -32,7 +34,7 @@ fun CharacterCard(name: String, description: String, image: Int) {
 
     ){
         Row(
-            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceEvenly,
         ) {
             Image(painter = painterResource(id = image), contentDescription = null,
                 modifier = Modifier
@@ -44,11 +46,14 @@ fun CharacterCard(name: String, description: String, image: Int) {
                 Text(
                     text = name,
                     style = MaterialTheme.typography.headlineMedium,
-                    color = MaterialTheme.colorScheme.onSurface
+                    color = MaterialTheme.colorScheme.onSurface,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.padding(vertical = 8.dp)
                 )
                 Text(
-                    text = description.toString(),
-                    style = MaterialTheme.typography.bodyMedium
+                    text = description,
+                    style = MaterialTheme.typography.bodyLarge,
+                    fontWeight = FontWeight.Bold
                 )
             }
         }
