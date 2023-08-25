@@ -33,7 +33,7 @@ fun AllCharacters(charList: List<CharacterData>) {
                     modifier = Modifier
                         .fillMaxWidth()
                         .wrapContentHeight()
-                        .padding(vertical = 25.dp),
+                        .padding(vertical = 40.dp),
                     horizontalArrangement = Arrangement.Center,
                     verticalAlignment = Alignment.CenterVertically
                 ){

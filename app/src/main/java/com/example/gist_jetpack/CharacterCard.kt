@@ -1,5 +1,6 @@
 package com.example.gist_jetpack
 
+import android.graphics.Paint.Align
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -8,6 +9,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
@@ -29,26 +32,27 @@ fun CharacterCard(name: String, description: String, image: Int) {
             .wrapContentHeight(),
         shape = MaterialTheme.shapes.medium,
         elevation = CardDefaults.cardElevation(
-            defaultElevation = 8.dp
+            defaultElevation = 10.dp
         ),
 
     ){
-        Row(
-            horizontalArrangement = Arrangement.SpaceEvenly,
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Image(painter = painterResource(id = image), contentDescription = null,
                 modifier = Modifier
                     .size(130.dp)
-                    .padding(8.dp),
+                    .padding(15.dp),
                 contentScale = ContentScale.Fit
                 )
+
             Column (Modifier.padding(8.dp)){
                 Text(
                     text = name,
                     style = MaterialTheme.typography.headlineMedium,
                     color = MaterialTheme.colorScheme.onSurface,
                     fontWeight = FontWeight.Bold,
-                    modifier = Modifier.padding(vertical = 8.dp)
+                    modifier = Modifier.padding(vertical = 8.dp).wrapContentWidth(Alignment.CenterHorizontally)
                 )
                 Text(
                     text = description,
