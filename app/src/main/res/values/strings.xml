@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gist-Jetpack</string>
+    <string name="app_name">GTA V </string>
     <string name="michael">Michael De Santa, formerly Michael Townley,
         is a retired bank robber, who, after making a deal with the Federal Investigation Bureau,
         moves alongside his family to Los Santos, where they live in a nice mansion. Unfortunately, his wife, Amanda,
@@ -30,6 +30,8 @@
         Trevor soon discovers that Michael had betrayed him nine years ago, and the two have a bitter falling out.
         Fortunately, they manage to put their differences aside in order to pull off a final heist.
         Voiced by Steven Ogg </string>
+
+
     <string name="lester">Lester Crest is an old friend of Michael,
         Trevor and Brad from back in the day. He is the deuteragonist to all three characters.
         At some point after Michael faked his death and moved to Los Santos, Lester moved to Los Santos as well,
@@ -39,6 +41,8 @@
         but decides against it on the grounds that "they\'re too unpredictable" for the job at that time. Eventually,
         Lester will help Michael and Trevor planning the robbery of the Union Depository that they\'ve been dreaming about for a decade.
         Voiced by Jay Klaitz </string>
+
+
     <string name="dave">David "Dave" Norton is an agent with the FIB and good friend of Michael.
         Dave\'s career with the FIB had been "unremarkable" until 2004,
         when he discovered the whereabouts of bank robber Michael Townley in Ludendorff.

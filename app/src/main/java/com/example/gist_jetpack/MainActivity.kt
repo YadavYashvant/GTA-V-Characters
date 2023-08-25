@@ -22,14 +22,14 @@ class MainActivity : ComponentActivity() {
 
         val characters = listOf(
             CharacterData(9,"Michael De Santa",getString(R.string.michael),R.drawable.michael),
-            CharacterData(9,"Michael De Santa",getString(R.string.franklin), R.drawable.franklin),
-            CharacterData(9,"Michael De Santa",getString(R.string.trevor), R.drawable.trevor),
-            CharacterData(9,"Michael De Santa",getString(R.string.lester), R.drawable.lester),
-            CharacterData(9,"Michael De Santa",getString(R.string.dave), R.drawable.dave),
-            CharacterData(9,"Michael De Santa",getString(R.string.amanda), R.drawable.amanda),
-            CharacterData(9,"Michael De Santa",getString(R.string.lamar), R.drawable.lamar),
-            CharacterData(9,"Michael De Santa",getString(R.string.jimmy), R.drawable.jimmy),
-            CharacterData(9,"Michael De Santa",getString(R.string.molly),R.drawable.molly),
+            CharacterData(9,"Franklin Clinton",getString(R.string.franklin), R.drawable.franklin),
+            CharacterData(9,"Trevor Philips",getString(R.string.trevor), R.drawable.trevor),
+            CharacterData(9,"Lester Crest",getString(R.string.lester), R.drawable.lester),
+            CharacterData(9,"Dave Norton",getString(R.string.dave), R.drawable.dave),
+            CharacterData(9,"Amanda De Santa",getString(R.string.amanda), R.drawable.amanda),
+            CharacterData(9,"Lamar Davis",getString(R.string.lamar), R.drawable.lamar),
+            CharacterData(9,"James De Santa",getString(R.string.jimmy), R.drawable.jimmy),
+            CharacterData(9,"Molly Schultz",getString(R.string.molly),R.drawable.molly),
         )
 
 
