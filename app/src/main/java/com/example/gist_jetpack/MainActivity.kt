@@ -3,10 +3,12 @@ package com.example.gist_jetpack
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import com.example.gist_jetpack.ui.theme.GistJetpackTheme
 
 val characters = listOf(
@@ -45,7 +47,8 @@ class MainActivity : ComponentActivity() {
             GistJetpackTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier.fillMaxSize()
+                        .background(Color.Black),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     AllCharacters(characters)
