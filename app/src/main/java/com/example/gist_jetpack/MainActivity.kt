@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import com.example.gist_jetpack.ui.theme.GistJetpackTheme
 
 val characters = listOf(
-    CharacterData(111,"Michael De Santa",R.string.michael,R.drawable.michael)
+    CharacterData(0,"Michael De Santa",R.string.michael,R.drawable.michael)
 )
 
 class MainActivity : ComponentActivity() {
