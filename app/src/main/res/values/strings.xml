@@ -1,4 +1,82 @@
 <resources>
     <string name="app_name">Gist-Jetpack</string>
-    <string name="michael">Michael De Santa, formerly Michael Townley, is a retired bank robber, who, after making a deal with the Federal Investigation Bureau, moves alongside his family to Los Santos, where they live in a nice mansion. Unfortunately, his wife, Amanda, repeatedly spends his money and the family has became largely dysfunctional over the years. After getting on the wrong side of a Mexican Cartel leader, Michael is forced to return to criminal life once more, this time, aided by his protege and up-and-coming criminal Franklin Clinton. After his first job, he is joined by former friend Trevor Philips. Despite a rift in their friendship after several jobs, including stealing a superweapon from the government, raiding a county bank and a research lab for the FIB, they banded together with Franklin and Lester to pull off a final heist</string>
+    <string name="michael">Michael De Santa, formerly Michael Townley,
+        is a retired bank robber, who, after making a deal with the Federal Investigation Bureau,
+        moves alongside his family to Los Santos, where they live in a nice mansion. Unfortunately, his wife, Amanda,
+        repeatedly spends his money and the family has became largely dysfunctional over the years.
+        After getting on the wrong side of a Mexican Cartel leader, Michael is forced to return to criminal life once more,
+        this time, aided by his protege and up-and-coming criminal Franklin Clinton. After his first job, he is joined by former friend Trevor Philips.
+        Despite a rift in their friendship after several jobs, including stealing a superweapon from the government,
+        raiding a county bank and a research lab for the FIB, they banded together with Franklin and Lester to pull off a final heist</string>
+
+
+    <string name="franklin"> Franklin Clinton is a young African-American man who dreams of becoming big-time in Los Santos,
+        in a world where the glory days of street gangs has long passed. He works as a repo man for a luxury car dealership,
+        but his ambition makes him tired of the job.
+        Franklin soon strikes up a friendship with Michael, one of his repossession victims,
+        who coincidentally got him fired. He helps the once-successful bank robber,
+        and the two form a strange but close father-son relationship.
+        When they execute a jewelry store heist, they are joined by Michael\'s ex-partner Trevor Philips.
+        The trio pull off several jobs, and Trevor and Franklin additionally do one job together.
+        Franklin eventually acts as a go-between when Trevor and Michael fall out,
+        however they are able to put their differences aside temporarily to pull off a final heist.
+        Voiced by Shawn Fonteno </string>
+
+    <string name="trevor">Trevor Philips is a mentally unstable redneck and bank robber.
+        A former military pilot, he based himself in Sandy Shores, where he founded "Trevor Philips Enterprises",
+        which mainly deals with weapons and drugs. After learning of the jewelry store heist in Los Santos,
+        Trevor realises that his supposedly deceased partner Michael is alive and well, and sets out to find him.
+        After finding his old friend in Los Santos, the two, aided by Franklin Clinton, are forced to pull off jobs for corrupt FIB agent Steve Haines.
+        Trevor soon discovers that Michael had betrayed him nine years ago, and the two have a bitter falling out.
+        Fortunately, they manage to put their differences aside in order to pull off a final heist.
+        Voiced by Steven Ogg </string>
+    <string name="lester">Lester Crest is an old friend of Michael,
+        Trevor and Brad from back in the day. He is the deuteragonist to all three characters.
+        At some point after Michael faked his death and moved to Los Santos, Lester moved to Los Santos as well,
+        and purchased a garment factory in La Mesa, along with several other properties to use as fronts for his various operations.
+        He is the mastermind behind the heists Michael, Franklin and Trevor pull off, and also issues assassination missions to Franklin.
+        Lester also claims he was working with someone in Los Santos, and even considered them for the jewelry store robbery,
+        but decides against it on the grounds that "they\'re too unpredictable" for the job at that time. Eventually,
+        Lester will help Michael and Trevor planning the robbery of the Union Depository that they\'ve been dreaming about for a decade.
+        Voiced by Jay Klaitz </string>
+    <string name="dave">David "Dave" Norton is an agent with the FIB and good friend of Michael.
+        Dave\'s career with the FIB had been "unremarkable" until 2004,
+        when he discovered the whereabouts of bank robber Michael Townley in Ludendorff.
+        Dave made a deal with Michael to surrender his accomplice Trevor Philips to the FIB,
+        whilst Michael would fake his death after being "shot" by Dave, in turn boosting Dave\'s career for taking down the "most wanted man in America".
+        In the Prologue, using a sniper rifle, he attempts to shoot Trevor Philips but accidentally shoots Brad Snider instead,
+        and Trevor escapes. Some time later, Dave intercepts a letter to Brad who is believed by the public to be incarcerated.
+        The letter is unnamed but was sent from Sandy Shores, and Norton deduces that it was written by Trevor. Assuming Brad\'s identity,
+        Norton begins corresponding with Trevor as a means to keep track of him.
+        Voiced by Julian Gamble </string>
+
+
+    <string name="amanda">Amanda De Santa is the wife of Michael,
+        and the mother of Jimmy and Tracey. She was once very close to her husband,
+        but their relationship became shaky, and Amanda started to waste most of their money.
+        She also partakes in many different affairs due to her "boredness".
+        After falling out with Michael following a conflict between him and her yoga practitioner,
+        she leaves the De Santa Residence with Tracey and Jimmy and remains absent for quite some time.
+        Eventually Amanda and Michael set aside their differences and reunite the family, resuming their relationship as well.
+        Voiced by Vicki Van Tassel </string>
+
+
+    <string name="lamar">Lamar Davis is one of Franklin\'s best friends.
+        Described as "crazy", Lamar has opposing ideals with Franklin, often leading to arguments between the two.
+        He is a member of the Families street gang.
+        Lamar was working as a repossession man for Premium Deluxe Motorsport until Simeon Yetarian fired both Lamar and Franklin.
+        Eventually, he will work stealing high-end cars for multi-millionaire businessman Devin Weston along with Franklin and Trevor.
+        Voiced by Slink Johnson </string>
+
+
+    <string name="jimmy">James "Jimmy" De Santa is the son of Michael and Amanda,
+        and the brother of Tracey. A young man in his early 20s, Jimmy is a lazy smoker who,
+        like other members of his family, has a confused relationship with his father.
+        Voiced by Danny Tamberelli </string>
+
+
+    <string name="molly">Molly Schultz is the Senior Vice President and General Counsel to Devin Weston\'s business.
+        As Weston\'s trusted lieutenant, Schultz often handles the contacts between Weston and the three protagonists.
+        It is also implied throughout the game that Molly is in love with Devin Weston.
+        Voiced by Elizabeth Mason </string>
 </resources>

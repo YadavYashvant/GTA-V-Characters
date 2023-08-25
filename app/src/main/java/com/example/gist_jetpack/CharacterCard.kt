@@ -21,16 +21,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 
 @Composable
 fun CharacterCard(name: String, description: String, image: Int) {
     Card(
         modifier = Modifier
-            .padding(10.dp)
+            .padding(horizontal = 12.dp, vertical = 25.dp)
             .fillMaxWidth()
             .wrapContentHeight(),
-        shape = MaterialTheme.shapes.medium,
+        shape = MaterialTheme.shapes.large,
         elevation = CardDefaults.cardElevation(
             defaultElevation = 10.dp
         ),
